@@ -6,11 +6,15 @@
 //  Copyright © ___YEAR___ KaBuM!. All rights reserved.
 //
 
+protocol ___FILEBASENAMEASIDENTIFIER___Delegate: AnyObject {
+    func updateView(with response: ___VARIABLE_featureName___Response)
+}
+
 final class ___FILEBASENAMEASIDENTIFIER___ {
     
     // MARK: - PROPERTIES
     
-    weak var delegate: ___VARIABLE_featureName___ViewModelDelegate?
+    weak var delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?
     
     // MARK: - INITIALIZERS
 

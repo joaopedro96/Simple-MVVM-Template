@@ -52,7 +52,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
     
     // MARK: - PUBLIC METHODS
     
-    func updateView(with response: ___FILEBASENAMEASIDENTIFIER___Response) {
+    func updateView(with response: ___VARIABLE_featureName___Response) {
         headerSection.updateSection(with: response)
     }
 }
