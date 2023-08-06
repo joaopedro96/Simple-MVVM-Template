@@ -59,7 +59,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
 
 // MARK: - CODE VIEW
 
-extension MyFeatureView: CodeView {
+extension ___FILEBASENAMEASIDENTIFIER___: CodeView {
     func buildViewHierarchy() {
         addSubview(scrollView)
         scrollView.addSubview(containerStackView)
