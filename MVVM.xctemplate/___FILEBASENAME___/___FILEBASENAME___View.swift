@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_featureName___ViewDelegate: AnyObject {
+protocol ___FILEBASENAMEASIDENTIFIER___Delegate: AnyObject {
     // events clicks on view
 }
 
@@ -16,7 +16,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
     
     // MARK: - PROPERTIES
     
-    weak var delegate: ___VARIABLE_featureName___ViewDelegate?
+    weak var delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?
     
     // MARK: - INITIALIZERS
     
@@ -45,14 +45,14 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
         return setupComponent
     }()
     
-    private lazy var headerSection: MyFeatureHeaderSectionView = {
-        let setupComponent = MyFeatureHeaderSectionView()
+    private lazy var headerSection: ___VARIABLE_featureName___HeaderSectionView = {
+        let setupComponent = ___VARIABLE_featureName___HeaderSectionView()
         return setupComponent
     }()
     
     // MARK: - PUBLIC METHODS
     
-    func updateView(with response: MyFeatureResponse) {
+    func updateView(with response: ___FILEBASENAMEASIDENTIFIER___Response) {
         headerSection.updateSection(with: response)
     }
 }

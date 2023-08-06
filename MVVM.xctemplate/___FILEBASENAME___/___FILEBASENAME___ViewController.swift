@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol MyFeatureViewControllerDelegate: AnyObject {
+protocol ___FILEBASENAMEASIDENTIFIER___Delegate: AnyObject {
     ///delete if no method its needed
 }
 

@@ -8,7 +8,6 @@
 
 final class ___FILEBASENAMEASIDENTIFIER___ {
     
-    
     // MARK: - PROPERTIES
     
     weak var delegate: ___VARIABLE_featureName___ViewModelDelegate?
@@ -28,12 +27,12 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
     // MARK: - FETCH METHODS
     
     private func fetchRequest() {
-        <#MyFeatureAPI#>.fetchRequest() { json, success, statusCode in
+        <#___VARIABLE_featureName___API#>.fetchRequest() { json, success, statusCode in
             guard let statusCode = statusCode else { return }
 
             switch statusCode {
             case 200...299:
-                guard let response = json?.decodeFromJson(to: MyFeatureResponse.self) else { return }
+                guard let response = json?.decodeFromJson(to: ___VARIABLE_featureName___Response.self) else { return }
                 self.viewController?.updateView(with: response)
 
             default:
@@ -44,6 +43,6 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
 }
 
 /// Move response to Model folder
-struct MyFeatureResponse: Codable {
+struct ___VARIABLE_featureName___Response: Codable {
     
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol MyFeatureHeaderSectionViewDelegate: AnyObject {
+protocol ___FILEBASENAMEASIDENTIFIER___Delegate: AnyObject {
     //events clicks on section
 }
 
@@ -41,7 +41,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
     
     // MARK: - PUBLIC METHODS
     
-    func updateSection(with response : MyFeatureResponse) {
+    func updateSection(with response : ___FILEBASENAMEASIDENTIFIER___Response) {
         
     }
 }
