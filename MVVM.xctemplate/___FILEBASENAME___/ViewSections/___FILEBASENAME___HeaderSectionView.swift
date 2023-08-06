@@ -41,7 +41,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
     
     // MARK: - PUBLIC METHODS
     
-    func updateSection(with response : ___FILEBASENAMEASIDENTIFIER___Response) {
+    func updateSection(with response: ___VARIABLE_featureName___Response) {
         
     }
 }
@@ -54,7 +54,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: CodeView {
     }
 
     func setupConstraints() {
-        titleLabel.snp.makeConstraints {
+        titleLabel.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(16)
             make.leading.equalToSuperview().offset(16)
             make.trailing.equalToSuperview().inset(16)

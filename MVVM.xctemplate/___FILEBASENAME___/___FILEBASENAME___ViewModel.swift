@@ -37,7 +37,7 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
             switch statusCode {
             case 200...299:
                 guard let response = json?.decodeFromJson(to: ___VARIABLE_featureName___Response.self) else { return }
-                self.viewController?.updateView(with: response)
+                self.delegate?.updateView(with: response)
 
             default:
                 return
