@@ -36,6 +36,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
         setupComponent.numberOfLines = 1
         setupComponent.font = .systemFont(ofSize: 14, weight: .bold)
         setupComponent.textColor = .titleDarkGray
+        setupComponent.text = "Header Section Title"
         return setupComponent
     }()
     
